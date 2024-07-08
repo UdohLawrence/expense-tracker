@@ -4,8 +4,6 @@ import { db } from "./db";
 export const checkUser = async () => {
     const user = await currentUser();
 
-    console.log(user);
-
     //check for current logged in clerk user
     if(!user){
         return null;
