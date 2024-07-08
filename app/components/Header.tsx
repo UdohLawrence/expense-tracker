@@ -3,7 +3,7 @@ import { checkUser } from "@/lib/checkUser";
 
 const Header = async () => {
     const user = await checkUser();
-    
+
   return (
     <nav className="w-screen p-4">
       <div className="max-w-3xl mx-auto flex justify-between items-center p-3 z-10">
